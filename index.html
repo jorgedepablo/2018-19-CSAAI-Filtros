@@ -7,19 +7,26 @@
     <script src="filtro.js"></script>
   </head>
   <body onload="main();">
-    <p>Imagen original</p>
-    <img src="black-hole.jpg" id="imagesrc">
-    <p>Imagen manipulada</p>
-    <canvas id="display"></canvas>
-    <br>
-    <button type="button" id="grises">GRISES</button>
-    <button type="button" id="colores">COLORES</button>
-    <br>
-    <input type="range" id="deslizadorR" min="0" max="255" value="255"/>
-    <p id="counterR">255</p>
-    <input type="range" id="deslizadorG" min="0" max="255" value="255"/>
-    <p id="counterG">255</p>
-    <input type="range" id="deslizadorB" min="0" max="255" value="255"/>
-    <p id="counterB">255</p>
+    <div id="content">
+      <p>Imagen original</p>
+      <img src="black-hole.jpg" id="imagesrc">
+      <p>Imagen manipulada</p>
+      <canvas id="display"></canvas>
+      <br>
+      <button type="button" id="grises">GRISES</button>
+      <button type="button" id="colores">COLORES</button>
+      <br>
+      <span> Rojo: </span>
+      <input type="range" id="deslizadorR" min="0" max="255" value="255"/>
+      <span id="counterR">255</span>
+      <br>
+      <span> Verde: </span>
+      <input type="range" id="deslizadorG" min="0" max="255" value="255"/>
+      <span id="counterG">255</span>
+      <br>
+      <span> Azul: </span>
+      <input type="range" id="deslizadorB" min="0" max="255" value="255"/>
+      <span id="counterB">255</span>
+    </div>
   </body>
 </html>

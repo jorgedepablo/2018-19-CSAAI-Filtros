@@ -1,3 +1,11 @@
 body {
   background-color: grey;
+  padding-top: 25px;
+}
+#content{
+    background-color: #232332;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 0.1px;
+    padding-bottom: 20px;
 }

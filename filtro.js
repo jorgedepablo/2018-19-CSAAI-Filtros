@@ -96,5 +96,5 @@ function main() {
     deslB.oninput = () => {
         filtroRGB(ctx, canvas, img);
     }
-    
+
 }
