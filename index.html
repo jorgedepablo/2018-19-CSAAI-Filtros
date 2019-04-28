@@ -8,25 +8,31 @@
   </head>
   <body onload="main();">
     <div id="content">
-      <p>Imagen original</p>
-      <img src="black-hole.jpg" id="imagesrc">
-      <p>Imagen manipulada</p>
-      <canvas id="display"></canvas>
-      <br>
-      <button type="button" id="grises">GRISES</button>
-      <button type="button" id="colores">COLORES</button>
-      <br>
-      <span> Rojo: </span>
-      <input type="range" id="deslizadorR" min="0" max="255" value="255"/>
-      <span id="counterR">255</span>
-      <br>
-      <span> Verde: </span>
-      <input type="range" id="deslizadorG" min="0" max="255" value="255"/>
-      <span id="counterG">255</span>
-      <br>
-      <span> Azul: </span>
-      <input type="range" id="deslizadorB" min="0" max="255" value="255"/>
-      <span id="counterB">255</span>
+      <div id="org">
+        <h3>Imagen 0riginal</h3>
+        <img src="black-hole.jpg" id="imagesrc">
+      </div>
+      <div id="edit">
+        <h3>Imagen Manipulada</h3>
+        <canvas id="display"></canvas>
+      </div>
+      <div id="controls">
+        <br>
+        <button type="button" id="grises">GRISES</button>
+        <button type="button" id="colores">COLORES</button>
+        <br>
+        <span class="barra"> Rojo: </span>
+        <input type="range" id="deslizadorR"  min="0" max="255" value="255"/>
+        <span id="counterR">255</span>
+        <br>
+        <span> Verde: </span>
+        <input type="range" id="deslizadorG" min="0" max="255" value="255"/>
+        <span id="counterG">255</span>
+        <br>
+        <span class="barra"> Azul: </span>
+        <input type="range" id="deslizadorB"  min="0" max="255" value="255"/>
+        <span id="counterB">255</span>
+      </div>
     </div>
   </body>
 </html>
